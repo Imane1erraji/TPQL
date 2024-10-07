@@ -12,9 +12,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author Antonio Goncalves
- *         http://www.antoniogoncalves.org
- *         --
+ * @author IMANE ERRAJI
+ *      
+ *         
  */
 
 @Constraint(validatedBy = {})
