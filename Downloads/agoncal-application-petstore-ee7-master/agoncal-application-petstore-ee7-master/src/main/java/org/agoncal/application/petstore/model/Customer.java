@@ -41,7 +41,7 @@ public class Customer implements Serializable
    @Column(name = "version")
    private int version;
 
-   @Column(length = 50, name = "first_name", nullable = false)
+   @Column(length = 40, name = "first_name", nullable = false) //changes by Asmae
    @NotNull
    @Size(min = 2, max = 50)
    private String firstName;
