@@ -38,7 +38,7 @@ public class Address implements Serializable
    private String state;
 
    @Column(length = 10, name = "zip_code", nullable = false)
-   @Size(min = 1, max = 10)
+   @Size(min = 1, max = 11) //imane's changes from 10 to 11
    @NotNull
    private String zipcode;
 
