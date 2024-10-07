@@ -36,7 +36,7 @@ public class Product implements Serializable
 
    @Column(length = 30, nullable = false)
    @NotNull
-   @Size(min = 1, max = 30)
+   @Size(min = 1, max = 20)    //changes by asmae
    private String name;
 
    @Column(length = 3000, nullable = false)
