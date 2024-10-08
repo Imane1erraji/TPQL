@@ -7,9 +7,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 import java.util.Objects;
 
-/**
- * @author Antonio Goncalves http://www.antoniogoncalves.org --
- */
 
 @Entity
 @Cacheable
