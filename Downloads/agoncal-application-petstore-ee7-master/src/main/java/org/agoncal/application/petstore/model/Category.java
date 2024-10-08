@@ -38,7 +38,7 @@ public class Category implements Serializable
    @Size(min = 1, max = 30)
    private String name;
 
-   @Column(length = 300, nullable = false) // imane changes
+   @Column(length = 350, nullable = false) // imane changed length 300 to 350
    @NotNull
    @Size(max = 3000)
    private String description;
