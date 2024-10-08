@@ -41,7 +41,7 @@ public class Category implements Serializable
    @Size(min = 1, max = 30)
    private String name;
 
-   @Column(length = 3000, nullable = false)
+   @Column(length = 1000, nullable = false) // changes by Asmae
    @NotNull
    @Size(max = 3000)
    private String description;
